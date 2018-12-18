@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4973297A-B162-4923-A75B-AF5540474D4C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>template</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies); glew32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./lib/</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\University\IN3026 Advanced Games Technology\Submit\Template\Template\Resources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>./lib/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies); glew32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AlphaSphere.cpp" />
+    <ClCompile Include="AudioHandler.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BoundingBox.cpp" />
+    <ClCompile Include="CollisionHandler.cpp" />
+    <ClCompile Include="CrossFade.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FelBall.cpp" />
+    <ClCompile Include="Fireball.cpp" />
+    <ClCompile Include="Grass.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Imp.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="FaceVertexMesh.cpp" />
+    <ClCompile Include="Forest.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="HeightMapTerrain.cpp" />
+    <ClCompile Include="HighResolutionTimer.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="Invisibility.cpp" />
+    <ClCompile Include="LightingHandler.cpp" />
+    <ClCompile Include="Md2Animation.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="PickUpHandler.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="OpenAssetImporterMesh.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="SmokeParticleEmitter.cpp" />
+    <ClCompile Include="SpecialFX.cpp" />
+    <ClCompile Include="SpriteExplosion.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Vector3f.cpp" />
+    <ClCompile Include="Vegetation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlphaSphere.h" />
+    <ClInclude Include="AudioHandler.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BoundingBox.h" />
+    <ClInclude Include="CollisionHandler.h" />
+    <ClInclude Include="CrossFade.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FelBall.h" />
+    <ClInclude Include="Fireball.h" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Imp.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="FaceVertexMesh.h" />
+    <ClInclude Include="Forest.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="HeightMapTerrain.h" />
+    <ClInclude Include="HighResolutionTimer.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="Invisibility.h" />
+    <ClInclude Include="LightingHandler.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Md2Animation.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="PickUpHandler.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="OpenAssetImporterMesh.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="SmokeParticleEmitter.h" />
+    <ClInclude Include="SpecialFX.h" />
+    <ClInclude Include="SpriteExplosion.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Vector3f.h" />
+    <ClInclude Include="Vegetation.h" />
+    <ClInclude Include="Vertex.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

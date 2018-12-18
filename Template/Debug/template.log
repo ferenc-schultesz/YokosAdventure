@@ -1,0 +1,65 @@
+﻿  Vegetation.cpp
+d:\university\in3026 advanced games technology\!!submit\template\template\vegetation.cpp(137): warning C4018: '<': signed/unsigned mismatch
+  Vector3f.cpp
+  Tree.cpp
+  Texture.cpp
+  Text.cpp
+  SpriteExplosion.cpp
+  SpecialFX.cpp
+  SmokeParticleEmitter.cpp
+  SkyBox.cpp
+  Random.cpp
+  Player.cpp
+  OpenAssetImporterMesh.cpp
+  Material.cpp
+  Potion.cpp
+  PickUpHandler.cpp
+  Particle.cpp
+  Md2Animation.cpp
+  Lighting.cpp
+  Invisibility.cpp
+  Intro.cpp
+  Generating Code...
+  Compiling...
+  HighResolutionTimer.cpp
+  HeightMapTerrain.cpp
+  GameWindow.cpp
+  Game.cpp
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(15): warning C4005: 'STAND': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(13): note: see previous definition of 'STAND'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(16): warning C4005: 'ATT': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(14): note: see previous definition of 'ATT'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(17): warning C4005: 'WALK': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(15): note: see previous definition of 'WALK'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(19): warning C4005: 'DIE': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(17): note: see previous definition of 'DIE'
+  Forest.cpp
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(15): warning C4005: 'STAND': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(13): note: see previous definition of 'STAND'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(16): warning C4005: 'ATT': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(14): note: see previous definition of 'ATT'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(17): warning C4005: 'WALK': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(15): note: see previous definition of 'WALK'
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.h(19): warning C4005: 'DIE': macro redefinition
+  d:\university\in3026 advanced games technology\!!submit\template\template\imp.h(17): note: see previous definition of 'DIE'
+  FaceVertexMesh.cpp
+  Camera.cpp
+  Imp.cpp
+  HUD.cpp
+  Grass.cpp
+  Fireball.cpp
+  FelBall.cpp
+  Enemy.cpp
+  CrossFade.cpp
+  CollisionHandler.cpp
+  BoundingBox.cpp
+  Boss.cpp
+  Background.cpp
+  Audio.cpp
+  AlphaSphere.cpp
+  Generating Code...
+d:\university\in3026 advanced games technology\!!submit\template\template\boss.cpp(409): warning C4715: 'Boss::strGetState': not all control paths return a value
+d:\university\in3026 advanced games technology\!!submit\template\template\imp.cpp(381): warning C4715: 'Imp::strGetState': not all control paths return a value
+glu32.lib(GLU32.dll) : warning LNK4209: debugging information corrupt; recompile module; linking object as if no debug info
+glu32.lib(GLU32.dll) : warning LNK4209: debugging information corrupt; recompile module; linking object as if no debug info
+  template.vcxproj -> D:\University\IN3026 Advanced Games Technology\!!Submit\Template\Debug\template.exe

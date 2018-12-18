@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{d47258c3-9672-4bb9-ab68-79936e2601b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{9cc59002-a3bb-4fcb-b46e-eee57de7dd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Pickups">
+      <UniqueIdentifier>{aac8c771-09b4-4760-ba60-4ae1ac005034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Pickups">
+      <UniqueIdentifier>{54f4acf7-7636-44c4-ac35-333b6adbc456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Enemies">
+      <UniqueIdentifier>{edd50a00-d8c3-466c-9e2a-a83b50c1bd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Enemies">
+      <UniqueIdentifier>{401984d9-a8d2-4707-8ba7-8e59f9f37cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{6843f133-f794-42e7-8a5a-ef023bfe899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{3af397c8-6af7-4e37-9a94-d53f7e9dc0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Player">
+      <UniqueIdentifier>{aaed6224-3798-46bd-b99b-21ee72ef36f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Player">
+      <UniqueIdentifier>{fb9f422a-311e-4043-9b37-cf9a96e8bb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{e0b7073e-5c5e-4f16-be3f-6d087714b7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{032efec5-d3cb-48f8-afbb-ff613accf715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Levels">
+      <UniqueIdentifier>{b0fcf689-ca32-4362-baed-6957f6cf7db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Spells">
+      <UniqueIdentifier>{5af3eb62-df98-47b5-bb16-863b8c15f2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Environment">
+      <UniqueIdentifier>{d41df468-7a66-48c7-8c7d-b2f79f0cbd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{beaebf0e-306d-4acd-8624-d9f82113cc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Environment">
+      <UniqueIdentifier>{fa60ea5e-d1f7-403c-bc44-7a61c66aa7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Spells">
+      <UniqueIdentifier>{24f675f3-d1ae-4e1a-aede-d66463876cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handlers">
+      <UniqueIdentifier>{bb3b6109-6b36-4cc6-8b4f-48f7a8529d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Levels">
+      <UniqueIdentifier>{04e01a36-ba83-454f-af58-048514b510c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\GameObjects\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Invisibility.cpp">
+      <Filter>Source Files\GameObjects\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files\GameObjects\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files\GameObjects\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>Source Files\GameObjects\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Imp.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossFade.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteExplosion.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeParticleEmitter.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Md2Animation.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialFX.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAssetImporterMesh.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HighResolutionTimer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Source Files\GameObjects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="FelBall.cpp">
+      <Filter>Source Files\GameObjects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaSphere.cpp">
+      <Filter>Source Files\GameObjects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceVertexMesh.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMapTerrain.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Vegetation.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\GameObjects\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Invisibility.h">
+      <Filter>Header Files\GameObjects\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header Files\GameObjects\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files\GameObjects\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
+      <Filter>Header Files\GameObjects\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Imp.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossFade.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteExplosion.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeParticleEmitter.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialFX.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FelBall.h">
+      <Filter>Header Files\GameObjects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Header Files\GameObjects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaSphere.h">
+      <Filter>Header Files\GameObjects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Vegetation.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMapTerrain.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceVertexMesh.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HighResolutionTimer.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Md2Animation.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAssetImporterMesh.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

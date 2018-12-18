@@ -1,0 +1,13 @@
+fireball: https://freesound.org/people/Julien%20Matthey/sounds/105016/
+ambient: https://freesound.org/people/InSintesi/sounds/369237/
+frost nova: https://freesound.org/people/joe93barlow/sounds/105986/
+sword hit: https://freesound.org/people/Kreastricon62/sounds/323526/
+rolling ball: https://freesound.org/people/SquirmTheVerm/sounds/260778/
+chase: https://freesound.org/people/staticpony1/sounds/249495/
+attack1: https://freesound.org/people/gneube/sounds/315846/
+attack2: https://freesound.org/people/sonidotv/sounds/238316/
+take damage: https://freesound.org/people/Deathscyp/sounds/404109/
+big expload: https://freesound.org/people/dogfishkid/sounds/399303/
+short explosion: https://freesound.org/people/Willlewis/sounds/244345/
+potion: https://freesound.org/people/Jamius/sounds/41529/
+invisibility: https://freesound.org/people/runningmind/sounds/363172/
